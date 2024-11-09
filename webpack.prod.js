@@ -33,13 +33,14 @@ module.exports = {
                 test: /\.(?:js|mjs|cjs)$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: 'babel-loader',
-                    options: {
-                        targets: "defaults",
-                        presets: [
-                            ['@babel/preset-env']
-                        ]
-                    }
+                  loader: 'babel-loader',
+                  options: {
+                    targets: "defaults",
+                    presets: [
+                      ['@babel/preset-env']
+                    ],
+                    plugins: ['@babel/plugin-proposal-decorators', { version: "2015-08" }]
+                  }
                 }
             },
         ],
