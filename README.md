@@ -68,8 +68,6 @@ git reset --hard HEAD
 git reset --hard HEAD^
 ```
 
-This will execute the script in `index.js`.
-
 # Contributing
 
 Feel free to fork the project and submit issues or pull requests if you have suggestions or improvements.
