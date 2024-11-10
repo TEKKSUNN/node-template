@@ -23,31 +23,6 @@ Before using this template, you need to have the following installed on your sys
    - On macOS: `brew install jq`
    - On Ubuntu: `sudo apt-get install jq`
 
-## Installation
-
-### 1. Clone the repository:
-
-```bash
-git clone https://github.com/TEKKSUNN/node-template.git
-cd node-template
-```
-
-### 2. Install dependencies:
-
-Make sure you have npm installed, then run the following command to install project dependencies:
-
-```bash
-npm install
-```
-
-### 3. Verify jq is available:
-
-Run the following command to make sure jq is installed correctly:
-
-```bash
-jq --version
-```
-
 ## Usage
 
 You need to `npm run setup` first before everything else.
